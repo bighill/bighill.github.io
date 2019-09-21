@@ -1,1 +1,41 @@
-hellow orld
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>@bighill</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible"  content="ie=edge">
+    <meta name="description"            content="GitHub landing page for @bighill">
+    <meta name="viewport"               content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <style>
+        html, body, div {
+            margin: 0;
+            height: 100%;
+        }
+        body {
+            background  : black;
+            color       :white;
+            font-family : Arial, Helvetica, sans-serif;
+        }
+        div {
+            display         : flex;
+            justify-content : center;
+            align-items     : center;
+            opacity         : 0.3;
+            animation       : fadeyfade 66s infinite;
+        }
+        span {
+            color: darkkhaki;
+        }
+        @keyframes fadeyfade {
+            from    { opacity: 0.3; }
+            50%     { opacity: 0.8; }
+            to      { opacity: 0.3; }
+        }
+    </style>
+    <div>
+        <h1>GitHub landing page for <span>@</span>bighill</h1>
+    </div>
+</body>
+</html>
